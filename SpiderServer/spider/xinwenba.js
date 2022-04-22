@@ -1,8 +1,7 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-const iconv = require("iconv-lite");
 
-const saveImages = require("./utils/saveImages");
+const saveImages = require("../utils/saveImages");
 
 const request = axios.create({
   methods: "GET",

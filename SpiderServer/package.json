@@ -1,0 +1,24 @@
+{
+  "name": "spiderserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "server": "node index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "description": "",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "socket.io": "^4.4.1",
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "iconv-lite": "^0.6.3"
+  }
+}
